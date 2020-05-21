@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 
 function CommentBox() {
+  const [comment, setComment] = useState();
+
+  const handleChange = evt => {
+    setComment(evt.target.value);
+  };
+
+  const handleSubmit = evt => {
+    evt.preventDefault();
+    setComment("");
+  };
+
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <h4>Add a Comment</h4>
-      <textarea />
+      <textarea name="comment" value={comment} onChange={handleChange} />
       <div>
-        <button>Submit Comment</button>
+        <button type="submit">Submit Comment</button>
       </div>
     </form>
   );
