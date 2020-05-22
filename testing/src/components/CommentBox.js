@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { connect } from "react-redux";
 import * as actions from "../actions";
 
-function CommentBox({ saveComment }) {
+const CommentBox = ({ saveComment }) => {
   const [comment, setComment] = useState();
 
   const handleChange = evt => {
@@ -25,6 +25,6 @@ function CommentBox({ saveComment }) {
       </div>
     </form>
   );
-}
+};
 
 export default connect(null, actions)(CommentBox);
