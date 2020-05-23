@@ -3,9 +3,18 @@ import { Route, Link } from "react-router-dom";
 import { connect } from "react-redux";
 import CommentBox from "./CommentBox";
 import CommentList from "./CommentList";
+import * as actions from "../actions";
 
-const App = ({ auth }) => {
-  const signButton = <button>{auth ? "Sign out" : "Sign in"}</button>;
+const App = ({ auth, changeAuth }) => {
+  const handleSignButtonClick = () => {
+    changeAuth(!auth);
+  };
+
+  const signButton = (
+    <button onClick={handleSignButtonClick}>
+      {auth ? "Sign out" : "Sign in"}
+    </button>
+  );
 
   const navBar = (
     <ul>
@@ -32,4 +41,4 @@ const mapStateToProps = state => ({
   auth: state.auth,
 });
 
-export default connect(mapStateToProps)(App);
+export default connect(mapStateToProps, actions)(App);
