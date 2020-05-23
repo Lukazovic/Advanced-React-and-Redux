@@ -24,7 +24,7 @@
 
 ## :page_facing_up: About
 
-This is a simple project made to understante how to test React Applications. The App consists in and text area so the user can type in a comment, a button to add the comment to a list of comments and a button to add comment from JSON Placeholder API. The comments will be displayed bellow the buttons.
+This is a simple project made to understant how to test React Applications. The App consists in and text area so the user can type in a comment, a button to add the comment to a list of comments and a button to add comment from JSON Placeholder API. The comments will be displayed bellow the buttons. It has no styles because the goal is to run some tests.
 
 ## 💻 How to Use
 
