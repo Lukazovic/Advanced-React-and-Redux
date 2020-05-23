@@ -1,9 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import * as actions from "../actions";
 
-const CommentBox = ({ saveComment, fetchComments }) => {
+const CommentBox = ({ saveComment, fetchComments, auth, history }) => {
   const [comment, setComment] = useState();
+
+  useEffect(() => {
+    if (!auth) {
+      // alert("You need to sign in to post comments!");
+      history.push("/");
+    }
+  }, [auth, history]);
 
   const handleChange = evt => {
     setComment(evt.target.value);
@@ -36,4 +43,8 @@ const CommentBox = ({ saveComment, fetchComments }) => {
   );
 };
 
-export default connect(null, actions)(CommentBox);
+const mapStateToProps = state => ({
+  auth: state.auth,
+});
+
+export default connect(mapStateToProps, actions)(CommentBox);
