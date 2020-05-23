@@ -1,68 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">:bar_chart: Tests in React :bar_chart:</h1>
+<h4 align="center">
+  <img src="./public/preview.png" /><br>
+</h4>
 
-## Available Scripts
+<p align="center">
+  <a href="#wrench-built-with">Built With</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#page_facing_up-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-use">How to Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bar_chart-how-to-test">How to Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#pencil-author">Author</a>
+</p>
 
-In the project directory, you can run:
+## :wrench: Built With
 
-### `yarn start`
+- [React](https://reactjs.org);
+- [Create React App](https://create-react-app.dev/);
+- [Jest](https://jestjs.io/);
+- [Axios](https://github.com/axios/axios);
+- [Moxios](https://github.com/axios/moxios);
+- [Enzyme](https://enzymejs.github.io/enzyme/);
+- [Redux](https://redux.js.org/).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :page_facing_up: About
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This is a simple project made to understante how to test React Applications. The App consists in and text area so the user can type in a comment, a button to add the comment to a list of comments and a button to add comment from JSON Placeholder API. The comments will be displayed bellow the buttons.
 
-### `yarn test`
+## 💻 How to Use
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Clone the project: `git clone https://github.com/Lukazovic/Advanced-React-and-Redux.git`;
+- Go to the project folder: `cd Advanced-React-and-Redux`;
+- Go to the testing folder: `cd testing`;
+- Download the dependencies: `npm install`;
+- Start the application: `npm start`.
 
-### `yarn build`
+It will open a browser page (if it doesn't, go to [http://localhost:3000](http://localhost:3000/)).
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :bar_chart: How to Test
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+**Observation: If you already done the [How to Use](#-how-to-use) part, skip to the last step**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Clone the project: `git clone https://github.com/Lukazovic/Advanced-React-and-Redux.git`;
+- Go to the project folder: `cd Advanced-React-and-Redux`;
+- Go to the testing folder: `cd testing`;
+- Download the dependencies: `npm install`;
+- Run the tests: `npm test`.
 
-### `yarn eject`
+Then you may see the tests running like in the image below:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![test](https://github.com/Lukazovic/Advanced-React-and-Redux/blob/master/testing/public/preview.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤔 How to Contribute
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Fork this repository;
+- Create your branch with your feature: `git checkout -b my-feature`;
+- Commit your feature: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Then merge your pull request, you can now delete your branch.
 
-## Learn More
+## :pencil: Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Lukazovic"><img src="https://avatars0.githubusercontent.com/u/54550926?s=460&u=cdeeac652ce0597a986fbdcff6e249ad27a1f1da&v=4" width="100px;" alt=""/><br /><sub><b>Lucas Vieira</b></sub></a><br /></td>
+  <tr>
+</table>
