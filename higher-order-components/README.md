@@ -1,4 +1,4 @@
-<h1 align="center">Higher Order Components</h1>
+<h1 align="center">:tophat:Higher Order Components:tophat:</h1>
 <h4 align="center">
   <img width="300" src="https://i.imgur.com/xXNdt5M.png" /><br>
 </h4>
