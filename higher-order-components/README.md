@@ -1,68 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Higher Order Components</h1>
+<h4 align="center">
+  <img width="300" src="https://i.imgur.com/xXNdt5M.png" /><br>
+</h4>
 
-## Available Scripts
+<p align="center">
+  <a href="#wrench-built-with">Built With</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#page_facing_up-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-use">How to Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bar_chart-tests">Tests</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#pencil-author">Author</a>
+</p>
 
-In the project directory, you can run:
+## :wrench: Built With
 
-### `yarn start`
+- [React](https://reactjs.org);
+- [Create React App](https://create-react-app.dev/);
+- [Redux](https://redux.js.org/).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :page_facing_up: About
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This is a simple project made to understant how Higher Order Components works in React and how to use/create them. The App consists in and text area so the user can type in a comment (users will only be able to type a new comment if they are signed in), a button to add the comment to a list of comments and a button to add comment from JSON Placeholder API. The comments will be displayed bellow the buttons. It has no styles because the goal is to learn about HOC.
 
-### `yarn test`
+*A [higher-order component (HOC)](https://reactjs.org/docs/higher-order-components.html) is an advanced technique in React for reusing component logic.* The HOC built in this application consists in check if a user is logged. If the user is logged in then the user can acess the CommentBox Component, otherwise the users is pushed to the Home page where the CommentList is displayed.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The importance of this HOC is that it can be use in all the pages that need auth to be accessed without having to repeat code.
 
-### `yarn build`
+## 💻 How to Use
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Clone the project: `git clone https://github.com/Lukazovic/Advanced-React-and-Redux.git`;
+- Go to the project folder: `cd Advanced-React-and-Redux`;
+- Go to the testing folder: `cd higher-order-components`;
+- Download the dependencies: `npm install`;
+- Start the application: `npm start`.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+It will open a browser page (if it doesn't, go to [http://localhost:3000](http://localhost:3000/)).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :bar_chart: Tests
 
-### `yarn eject`
+**Observation: If you already done the [How to Use](#-how-to-use) part, skip to the last step**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Clone the project: `git clone https://github.com/Lukazovic/Advanced-React-and-Redux.git`;
+- Go to the project folder: `cd Advanced-React-and-Redux`;
+- Go to the testing folder: `cd higher-order-components`;
+- Download the dependencies: `npm install`;
+- Run the tests: `npm test`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Then you may see the tests running like in the image below:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![test](https://github.com/Lukazovic/Advanced-React-and-Redux/blob/master/testing/public/preview.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🤔 How to Contribute
 
-## Learn More
+- Fork this repository;
+- Create your branch with your feature: `git checkout -b my-feature`;
+- Commit your feature: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Then merge your pull request, you can now delete your branch.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :pencil: Author
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Lukazovic"><img src="https://avatars0.githubusercontent.com/u/54550926?s=460&u=cdeeac652ce0597a986fbdcff6e249ad27a1f1da&v=4" width="100px;" alt=""/><br /><sub><b>Lucas Vieira</b></sub></a><br /></td>
+  <tr>
+</table>
