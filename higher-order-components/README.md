@@ -20,7 +20,7 @@
 
 ## :page_facing_up: About
 
-This is a simple project made to understant how Higher Order Components works in React and how to use/create them. The App consists in and text area so the user can type in a comment (users will only be able to type a new comment if they are signed in), a button to add the comment to a list of comments and a button to add comment from JSON Placeholder API. The comments will be displayed bellow the buttons. It has no styles because the goal is to learn about HOC.
+This is a simple project made to understand how Higher Order Components works in React and how to use/create them. The App consists in and text area so the user can type in a comment (users will only be able to type a new comment if they are signed in), a button to add the comment to a list of comments and a button to add comment from JSON Placeholder API. The comments will be displayed bellow the buttons. It has no styles because the goal is to learn about HOC.
 
 *A [higher-order component (HOC)](https://reactjs.org/docs/higher-order-components.html) is an advanced technique in React for reusing component logic.* The HOC built in this application consists in check if a user is logged. If the user is logged in then the user can acess the CommentBox Component, otherwise the users is pushed to the Home page where the CommentList is displayed.
 
