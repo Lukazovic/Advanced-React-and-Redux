@@ -7,7 +7,6 @@
   <a href="#wrench-built-with">Built With</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#page_facing_up-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-use">How to Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#bar_chart-tests">Tests</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#pencil-author">Author</a>
 </p>
@@ -35,20 +34,6 @@ The importance of this HOC is that it can be use in all the pages that need auth
 - Start the application: `npm start`.
 
 It will open a browser page (if it doesn't, go to [http://localhost:3000](http://localhost:3000/)).
-
-## :bar_chart: Tests
-
-**Observation: If you already done the [How to Use](#-how-to-use) part, skip to the last step**
-
-- Clone the project: `git clone https://github.com/Lukazovic/Advanced-React-and-Redux.git`;
-- Go to the project folder: `cd Advanced-React-and-Redux`;
-- Go to the testing folder: `cd higher-order-components`;
-- Download the dependencies: `npm install`;
-- Run the tests: `npm test`.
-
-Then you may see the tests running like in the image below:
-
-![test](https://github.com/Lukazovic/Advanced-React-and-Redux/blob/master/testing/public/preview.png)
 
 ## 🤔 How to Contribute
 
