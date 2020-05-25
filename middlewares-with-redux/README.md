@@ -20,7 +20,7 @@
 
 ## :page_facing_up: About
 
-This is a simple project made to understand how Redux Middlewares works in React and how to use/create them. The App consists in and text area so the user can type in a comment (users will only be able to type a new comment if they are signed in), a button to add the comment to a list of comments and a button to add comment from JSON Placeholder API. The comments will be displayed bellow the buttons. It has no styles because the goal is to learn about HOC.
+This is a simple project made to understand how Redux Middlewares works in React and how to use/create them. The App consists in and text area so the user can type in a comment (users will only be able to type a new comment if they are signed in), a button to add the comment to a list of comments and a button to add comment from JSON Placeholder API. The comments will be displayed bellow the buttons. It has no styles because the goal is to learn about MIddlewares with Redux.
 
 *The middleware sits in between the dispatch and reducers, which means we can alter our dispatched actions before they get to the reducers or execute some code during the dispatch* ([Check the full post](https://medium.com/netscape/creating-custom-middleware-in-react-redux-961570459ecb)). The first Middleware built in this application is an implementation of the [Redux-Promise](https://www.npmjs.com/package/redux-promise) to understante how it works and the second one consists in check if the state of the function has the rights types of  arguments.
 
