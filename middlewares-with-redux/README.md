@@ -1,68 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">:ticket: Middlewares with Redux :ticket:</h1>
+<h4 align="center">
+  <img src="https://i.imgur.com/NUDs7V1.png" /><br>
+</h4>
 
-## Available Scripts
+<p align="center">
+  <a href="#wrench-built-with">Built With</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#page_facing_up-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-use">How to Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#pencil-author">Author</a>
+</p>
 
-In the project directory, you can run:
+## :wrench: Built With
 
-### `yarn start`
+- [React](https://reactjs.org);
+- [Create React App](https://create-react-app.dev/);
+- [Redux](https://redux.js.org/);
+- [tv4](https://github.com/geraintluff/tv4).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :page_facing_up: About
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This is a simple project made to understand how Redux Middlewares works in React and how to use/create them. The App consists in and text area so the user can type in a comment (users will only be able to type a new comment if they are signed in), a button to add the comment to a list of comments and a button to add comment from JSON Placeholder API. The comments will be displayed bellow the buttons. It has no styles because the goal is to learn about HOC.
 
-### `yarn test`
+*The middleware sits in between the dispatch and reducers, which means we can alter our dispatched actions before they get to the reducers or execute some code during the dispatch* ([Check the full post](https://medium.com/netscape/creating-custom-middleware-in-react-redux-961570459ecb)). The first Middleware built in this application is an implementation of the [Redux-Promise](https://www.npmjs.com/package/redux-promise) to understante how it works and the second one consists in check if the state of the function has the rights types of  arguments.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 How to Use
 
-### `yarn build`
+- Clone the project: `git clone https://github.com/Lukazovic/Advanced-React-and-Redux.git`;
+- Go to the project folder: `cd Advanced-React-and-Redux`;
+- Go to the testing folder: `cd middlewares-with-redux`;
+- Download the dependencies: `npm install`;
+- Start the application: `npm start`.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+It will open a browser page (if it doesn't, go to [http://localhost:3000](http://localhost:3000/)).
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 🤔 How to Contribute
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Fork this repository;
+- Create your branch with your feature: `git checkout -b my-feature`;
+- Commit your feature: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
 
-### `yarn eject`
+Then merge your pull request, you can now delete your branch.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :pencil: Author
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Lukazovic"><img src="https://avatars0.githubusercontent.com/u/54550926?s=460&u=cdeeac652ce0597a986fbdcff6e249ad27a1f1da&v=4" width="100px;" alt=""/><br /><sub><b>Lucas Vieira</b></sub></a><br /></td>
+  <tr>
+</table>
