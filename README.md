@@ -1,4 +1,4 @@
-<h1 align="center">Advanced React and Redux</h1>
+<h1 align="center">:eyeglasses: Advanced React and Redux :eyeglasses:</h1>
 <h4 align="center">
   <img src="./.github/banner.jpg" /><br>
 </h4>
@@ -20,7 +20,7 @@ You can see each section's information by clicking in the sections below
 
 - [Tests](https://github.com/Lukazovic/Advanced-React-and-Redux/tree/master/testing)
 - [Higher Order Components](https://github.com/Lukazovic/Advanced-React-and-Redux/tree/master/higher-order-components)
-- [Middlewares with Redux](https://github.com/Lukazovic/Advanced-React-and-Redux/tree/master/middlewares-with-redux) (In Progress)
+- [Middlewares with Redux](https://github.com/Lukazovic/Advanced-React-and-Redux/tree/master/middlewares-with-redux)
 - Client side Auth (Yet to come)
 
 ## :pencil: Author
