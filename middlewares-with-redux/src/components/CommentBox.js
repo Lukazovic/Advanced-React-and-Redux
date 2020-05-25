@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import * as actions from "../actions";
 import requireAuth from "./requireAuth";
 
-const CommentBox = ({ saveComment, fetchComments }) => {
+const CommentBox = ({ saveComment, fetchComments, history }) => {
   const [comment, setComment] = useState();
 
   const handleChange = evt => {
@@ -15,10 +15,12 @@ const CommentBox = ({ saveComment, fetchComments }) => {
 
     saveComment(comment);
     setComment("");
+    history.push("/");
   };
 
   const handleFetchComments = evt => {
     fetchComments();
+    history.push("/");
   };
 
   return (
