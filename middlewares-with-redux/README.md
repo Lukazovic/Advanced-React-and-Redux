@@ -24,6 +24,8 @@ This is a simple project made to understand how Redux Middlewares works in React
 
 *The middleware sits in between the dispatch and reducers, which means we can alter our dispatched actions before they get to the reducers or execute some code during the dispatch* ([Check the full post](https://medium.com/netscape/creating-custom-middleware-in-react-redux-961570459ecb)). The first Middleware built in this application is an implementation of the [Redux-Promise](https://www.npmjs.com/package/redux-promise) to understante how it works and the second one consists in check if the state of the function has the rights types of  arguments.
 
+You can find my implementation of the Redux-Promise Middleware with Hooks, async-await and ES6+ by cliking [here](https://github.com/Lukazovic/Advanced-React-and-Redux/blob/master/middlewares-with-redux/src/middlewares/async.js) or navigating to `./src/middlewares/async.js.`
+
 ## 💻 How to Use
 
 - Clone the project: `git clone https://github.com/Lukazovic/Advanced-React-and-Redux.git`;
