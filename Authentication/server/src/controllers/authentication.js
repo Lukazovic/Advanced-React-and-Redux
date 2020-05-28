@@ -28,4 +28,8 @@ module.exports = {
       return res.status(500).json(err);
     }
   },
+
+  async signin(req, res, next) {
+    res.send({ token: tokenForUser(req.user) });
+  },
 };
