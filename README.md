@@ -12,7 +12,7 @@
 
 ## :page_facing_up: About
 
-Walkthroughs on advanced React and Redux - Authentication, Testing, Middlewares, HOC's, and Deployment.
+Walkthroughs on advanced React and Redux - Authentication, Testing, Middlewares andHOC's.
 
 ## :bookmark_tabs: Sections
 
