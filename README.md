@@ -21,7 +21,7 @@ You can see each section's information by clicking in the sections below
 - [Tests](https://github.com/Lukazovic/Advanced-React-and-Redux/tree/master/testing)
 - [Higher Order Components](https://github.com/Lukazovic/Advanced-React-and-Redux/tree/master/higher-order-components)
 - [Middlewares with Redux](https://github.com/Lukazovic/Advanced-React-and-Redux/tree/master/middlewares-with-redux)
-- Authentication (Yet to come)
+- [Authentication](https://github.com/Lukazovic/Advanced-React-and-Redux/tree/master/Authentication)
 
 ## :pencil: Author
 
