@@ -4,9 +4,11 @@ import { compose } from "redux";
 import { connect } from "react-redux";
 import * as actions from "../../actions";
 
-function Signup({ handleSubmit, signup, errorMessage }) {
+function Signup({ handleSubmit, signup, errorMessage, history }) {
   const onSubmit = formProps => {
-    signup(formProps);
+    signup(formProps, () => {
+      history.push("/feature");
+    });
   };
 
   return (
