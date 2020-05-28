@@ -17,8 +17,8 @@
   - [React](https://reactjs.org)
   - [Create React App](https://create-react-app.dev/)
   - [Redux](https://redux.js.org/)
-  - [Rreeact Router](https://reacttraining.com/react-router/)
-  - [axios](https://github.com/axios/axios)
+  - [React Router](https://reacttraining.com/react-router/)
+  - [Axios](https://github.com/axios/axios)
 - **Backend**
   - [Express](https://expressjs.com/pt-br/)
   - [MongoDB](https://www.mongodb.com/)
