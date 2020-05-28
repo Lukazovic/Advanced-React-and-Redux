@@ -10,6 +10,8 @@
 
 ## 💻 How to Use
 
+**Important:** in order to see the client side work as it should be you have to start the [server](https://github.com/Lukazovic/Advanced-React-and-Redux/tree/master/Authentication/server).
+
 After you've cloned the repository and Navigated to the ``Authorization`` folder:
 
 - Go to the client folder: `cd client`;
